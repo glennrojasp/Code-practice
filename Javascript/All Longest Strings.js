@@ -52,7 +52,7 @@ function solution(inputArray) {
 // }
 
 
-function solution(inputArray) {
+function solution2(inputArray) {
     'use strict';
     let maxSize = Math.max(...inputArray.map(x => x.length));
     return inputArray.filter(x => x.length === maxSize);
